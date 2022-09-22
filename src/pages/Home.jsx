@@ -25,7 +25,7 @@ const Home = () => {
   return (
     <div className="App">
       <h1 className="text-center mb-3">Characters</h1>
-      <Search setSearch={setSearch} updatePageNumber={updatePageNumber} />
+      <Search search={search} setSearch={setSearch} updatePageNumber={updatePageNumber} />
       <div className="container">
         <div className="row">
           <Filter
